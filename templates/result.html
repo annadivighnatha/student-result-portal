@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+
+<body>
+
+
+<header>
+    <h1>Student Result</h1>
+    <p>Academic Performance Report</p>
+</header>
+
+
+
+<div class="card">
+
+
+<h2>Student Details</h2>
+
+
+<div class="details">
+
+<p>
+<b>Name:</b>
+{{ student['name'] }}
+</p>
+
+
+<p>
+<b>Hall Ticket:</b>
+{{ student['hall_ticket'] }}
+</p>
+
+
+<p>
+<b>Branch:</b>
+{{ student['branch'] }}
+</p>
+
+
+<p>
+<b>Semester:</b>
+{{ student['semester'] }}
+</p>
+
+</div>
+
+
+
+<h2>Marks</h2>
+
+
+<table>
+
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+
+
+<tr>
+<td>Python</td>
+<td>{{ student['python'] }}</td>
+</tr>
+
+
+<tr>
+<td>Java</td>
+<td>{{ student['java'] }}</td>
+</tr>
+
+
+<tr>
+<td>DBMS</td>
+<td>{{ student['dbms'] }}</td>
+</tr>
+
+
+<tr>
+<td>Web Technology</td>
+<td>{{ student['web'] }}</td>
+</tr>
+
+
+</table>
+
+
+<h2 class="cgpa">
+CGPA : {{ student['cgpa'] }}
+</h2>
+
+
+<a href="/">
+<button>
+Search Another Result
+</button>
+</a>
+
+
+<a href="/download/{{ student['hall_ticket'] }}">
+    <button>
+        Download PDF
+    </button>
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>

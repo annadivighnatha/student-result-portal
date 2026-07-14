@@ -1,0 +1,148 @@
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+
+}
+
+
+
+header {
+
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.card {
+
+    width: 450px;
+    background: white;
+
+    margin: 50px auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px gray;
+
+}
+
+
+
+h2 {
+
+    text-align: center;
+
+}
+
+
+
+label {
+
+    display: block;
+    margin-top: 20px;
+
+}
+
+
+
+input {
+
+    width: 95%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+button {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background: #003366;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background: #00509e;
+
+}
+
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+}
+
+
+
+th {
+
+    background: #003366;
+
+    color: white;
+
+}
+
+
+
+td, th {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    text-align: center;
+
+}
+
+
+
+.cgpa {
+
+    color: green;
+
+}
+
+
+
+.error {
+
+    text-align: center;
+
+}
